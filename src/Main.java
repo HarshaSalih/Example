@@ -24,6 +24,25 @@ public class Main
                     } else {
                         System.out.println("Largest is " + num3);
                     }
+                    break;
+                case 2:
+                    System.out.println("Enter three numbers");
+                    num1=sc.nextInt();
+                    num2=sc.nextInt();
+                    num3=sc.nextInt();
+                    if(num1<num2 && num1<num3)
+                    {
+                        System.out.println("Smallest is "+num1);
+                    }
+                    else if(num2<num3)
+                    {
+                        System.out.println("Smallest is "+num2);
+                    }
+                    else
+                    {
+                        System.out.println("Smallest is "+num3);
+                    }
+                    break;
             }
         }
             while (option != 5) ;
