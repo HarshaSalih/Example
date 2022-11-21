@@ -68,6 +68,20 @@ public class Main
                             System.out.println("Prime number");
                         }
                     }
+                case 4:
+                    System.out.println("Enter a number");
+                    num=sc.nextInt();
+                    if(num%2==0)
+                    {
+                        System.out.println("Even");
+                    }
+                    else
+                    {
+                        System.out.println("Not even");
+                    }
+
+
+
             }
 
 
