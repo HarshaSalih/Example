@@ -79,6 +79,19 @@ public class Main
                     {
                         System.out.println("Not even");
                     }
+                case 5:
+                    System.out.println("Enter a number");
+                    num=sc.nextInt();
+                    int reverse=0;
+                    while(num != 0)
+                    {
+                        int remainder = num % 10;
+                        reverse = reverse * 10 + remainder;
+                        num = num/10;
+                    }
+                    System.out.println("Reverse is : "+reverse);
+                    break;
+
 
 
 
