@@ -43,7 +43,34 @@ public class Main
                         System.out.println("Smallest is "+num3);
                     }
                     break;
+                case 3:
+                    System.out.println("Enter a number");
+                    int num=sc.nextInt();
+                    int i,flag=0;
+                    if(num==0||num==1)
+                    {
+                        System.out.println("Not prime");
+                    }
+                    else
+                    {
+                        for(i=2;i<=num/2;i++)
+                        {
+                            if(num%i==0)
+                            {
+                                System.out.println("Not prime");
+                                flag=1;
+                                break;
+                            }
+                        }
+                        if(flag==0)
+
+                        {
+                            System.out.println("Prime number");
+                        }
+                    }
             }
+
+
         }
             while (option != 5) ;
         }
